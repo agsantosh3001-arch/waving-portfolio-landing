@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">A little creative workbench</title>
+  <desc id="desc">A printed retro illustration of a small computer, pencil, sketchbook, and spark, representing design and digital making.</desc>
+  <defs>
+    <pattern id="dot" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r=".8" fill="#141414" fill-opacity=".16"/>
+    </pattern>
+    <linearGradient id="monitor" x1="191" x2="405" y1="95" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFEFA"/><stop offset="1" stop-color="#E6E1D7"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="17" width="564" height="436" rx="4" fill="#F6F4F0" stroke="#141414" stroke-width="3"/>
+  <rect x="26" y="25" width="548" height="420" fill="url(#dot)" opacity=".4"/>
+  <path d="M39 61h522" stroke="#141414" stroke-opacity=".28"/>
+  <text x="43" y="48" fill="#141414" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="3">A SMALL STUDY IN MAKING</text>
+  <text x="469" y="48" fill="#E5262C" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="2">V / 01</text>
+  <ellipse cx="304" cy="384" rx="200" ry="19" fill="#141414" fill-opacity=".1"/>
+  <g transform="rotate(-3 300 209)">
+    <rect x="165" y="91" width="275" height="221" rx="19" fill="url(#monitor)" stroke="#141414" stroke-width="6"/>
+    <rect x="187" y="112" width="231" height="155" rx="10" fill="#141414"/>
+    <path d="m220 185 24 20-24 20m59-40-24 40m43 0h54" stroke="#F6F4F0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="393" cy="287" r="6" fill="#E5262C"/>
+    <path d="M246 315h113l28 45H220l26-45Z" fill="#E4DED3" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M232 360h146l20 13H212l20-13Z" fill="#F6F4F0" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+  <g transform="rotate(12 455 326)">
+    <path d="m425 221 31-12 82 211-31 12-82-211Z" fill="#E5262C" stroke="#141414" stroke-width="4" stroke-linejoin="round"/>
+    <path d="m425 221 31-12 9 23-31 12-9-23Z" fill="#F6F4F0" stroke="#141414" stroke-width="4" stroke-linejoin="round"/>
+    <path d="m507 430 17-8 25 55-32-35-10-12Z" fill="#D7CFC2" stroke="#141414" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+  <g transform="rotate(-10 133 311)">
+    <rect x="66" y="274" width="120" height="91" rx="3" fill="#FFFEFA" stroke="#141414" stroke-width="4"/>
+    <path d="M82 298h78m-78 17h56m-56 17h67" stroke="#141414" stroke-opacity=".42" stroke-width="4" stroke-linecap="round"/>
+    <path d="M82 350h32" stroke="#E5262C" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <path d="m121 114 6 16 16 6-16 6-6 16-6-16-16-6 16-6 6-16Zm377 44 4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z" fill="#E5262C"/>
+  <path d="M112 209c16-15 16-36 0-51m-15 37c8-9 8-19 0-28m397 22c16 15 16 36 0 51" stroke="#141414" stroke-width="3" stroke-linecap="round"/>
+  <path d="M62 411h476" stroke="#141414" stroke-opacity=".28"/>
+  <text x="43" y="431" fill="#141414" fill-opacity=".67" font-family="Arial,sans-serif" font-size="9" font-weight="800" letter-spacing="2">DRAW / BUILD / REFINE</text>
+  <text x="454" y="431" fill="#E5262C" font-family="Georgia,serif" font-size="15" font-style="italic">again ✳</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 760" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Jarvis, a retro digital assistant concept</title>
+  <desc id="desc">A friendly retro terminal robot at the center of orbital voice waves and connected workflow nodes.</desc>
+  <defs>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="matrix(0 305 -305 0 460 358)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5262C" stop-opacity=".23"/><stop offset="1" stop-color="#E5262C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="299" x2="627" y1="250" y2="565" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF8"/><stop offset="1" stop-color="#D9D2C7"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="352" x2="566" y1="303" y2="423" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#271F1E"/><stop offset="1" stop-color="#090909"/>
+    </linearGradient>
+    <filter id="shadow" x="234" y="205" width="452" height="520" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0v32" stroke="#141414" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+  <path fill="url(#grid)" d="M0 0h920v760H0z"/>
+  <circle cx="460" cy="368" r="340" fill="url(#halo)"/>
+  <circle cx="460" cy="368" r="302" stroke="#141414" stroke-opacity=".16"/>
+  <circle cx="460" cy="368" r="250" stroke="#E5262C" stroke-opacity=".52" stroke-dasharray="2 10"/>
+  <circle cx="460" cy="368" r="198" stroke="#141414" stroke-opacity=".18"/>
+  <path d="M120 368h150m500 0h110M460 48v133m0 374v126" stroke="#E5262C" stroke-opacity=".72" stroke-dasharray="4 8"/>
+  <circle cx="120" cy="368" r="7" fill="#E5262C"/><circle cx="880" cy="368" r="7" fill="#E5262C"/>
+  <circle cx="460" cy="48" r="6" fill="#141414"/><circle cx="460" cy="681" r="6" fill="#141414"/>
+  <g class="satellite satellite--left">
+    <rect x="72" y="293" width="126" height="58" rx="4" fill="#F6F4F0"/>
+    <circle cx="96" cy="322" r="7" fill="#E5262C"/><path d="M114 315h65M114 328h43" stroke="#141414" stroke-width="3"/>
+    <path d="M134 351v17h-14" stroke="#E5262C" stroke-width="2"/>
+  </g>
+  <g class="satellite satellite--right">
+    <rect x="716" y="386" width="132" height="58" rx="4" fill="#E5262C"/>
+    <path d="M741 414h38m0 0-9-9m9 9-9 9" stroke="#F6F4F0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M791 407h39M791 420h28" stroke="#F6F4F0" stroke-width="3"/>
+    <path d="M780 386v-19h-15" stroke="#F6F4F0" stroke-width="2"/>
+  </g>
+  <ellipse cx="460" cy="650" fill="#000" fill-opacity=".5" rx="175" ry="24" filter="url(#shadow)"/>
+  <g class="jarvis-bot">
+    <path d="M460 192v45" stroke="#141414" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="460" cy="180" r="17" fill="#E5262C" stroke="#141414" stroke-width="5"/>
+    <path d="M316 291c0-30 24-54 54-54h180c30 0 54 24 54 54v251c0 34-28 62-62 62H378c-34 0-62-28-62-62V291Z" fill="url(#shell)" stroke="#141414" stroke-width="8"/>
+    <path d="M352 316c0-17 14-31 31-31h208c17 0 31 14 31 31v87c0 17-14 31-31 31H383c-17 0-31-14-31-31v-87Z" fill="url(#glass)" stroke="#141414" stroke-width="7"/>
+    <path d="M394 362c0-14 11-25 25-25s25 11 25 25-11 25-25 25-25-11-25-25Zm122 0c0-14 11-25 25-25s25 11 25 25-11 25-25 25-25-11-25-25Z" fill="#E5262C"/>
+    <path d="M413 359h12m122 0h12" stroke="#FFFDF8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M430 467h60" stroke="#141414" stroke-width="7" stroke-linecap="round"/>
+    <path d="M368 469v41m-14-27h28m170-14v41m-14-27h28" stroke="#141414" stroke-opacity=".5" stroke-width="4" stroke-linecap="round"/>
+    <rect x="357" y="520" width="206" height="55" rx="10" fill="#141414"/>
+    <circle cx="386" cy="548" r="9" fill="#E5262C"/><circle cx="414" cy="548" r="9" fill="#F6F4F0"/>
+    <path d="M453 548h39" stroke="#F6F4F0" stroke-width="4" stroke-linecap="round"/>
+    <path d="M379 604v28m162-28v28" stroke="#141414" stroke-width="12" stroke-linecap="round"/>
+    <path d="M350 651h220" stroke="#E5262C" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="460" cy="651" r="8" fill="#141414"/>
+  </g>
+  <g class="sound-waves" stroke="#E5262C" stroke-linecap="round">
+    <path d="M268 307c-20 19-20 101 0 121" stroke-width="5"/>
+    <path d="M245 285c-34 30-34 137 0 166" stroke-opacity=".66" stroke-width="4"/>
+    <path d="M652 307c20 19 20 101 0 121" stroke-width="5"/>
+    <path d="M675 285c34 30 34 137 0 166" stroke-opacity=".66" stroke-width="4"/>
+  </g>
+  <path d="m681 163 6 15 15 6-15 6-6 15-6-15-15-6 15-6 6-15ZM248 505l4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10Z" fill="#141414"/>
+</svg>
