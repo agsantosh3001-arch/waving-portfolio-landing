@@ -149,6 +149,7 @@ body { min-height: 100svh; }
   .vivan-dock .animated-top-dock__item { height: 34px !important; }
   .vivan-dock .animated-top-dock__logo { width: 34px !important; height: 34px !important; }
   .vivan-dock-menu { top: 62px; right: 14px; transform-origin: top right; }
+  #about, #what-i-do, #field-manuals, #jarvis, #stack, #contact, #footer { scroll-margin-top: 5.25rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .vivan-dock-menu, .vivan-dock-menu * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
@@ -264,6 +265,27 @@ body { min-height: 100svh; }
   .timeline-left .timeline-card p { margin-left: 0; }
   .timeline-left .timeline-doodle { right: -.75rem; left: auto; }
   .about-footer { flex-wrap: wrap; font-size: .5rem; }
+}
+@media (max-width: 600px) {
+  .about-copy {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(4rem, 20vw, 4.75rem);
+    grid-template-areas: "lead sticker" "body body" "tags tags";
+    align-items: start;
+    gap: .8rem .55rem;
+    padding-top: 0;
+  }
+  .about-sticker {
+    position: relative;
+    top: auto;
+    right: auto;
+    grid-area: sticker;
+    width: 100%;
+    margin: .15rem 0 0;
+  }
+  .about-lead { grid-area: lead; max-width: none; margin: 0; font-size: clamp(1.12rem, 5.3vw, 1.35rem); }
+  .about-body { grid-area: body; max-width: none; }
+  .about-tags { grid-area: tags; margin-top: .25rem; }
 }
 @media (prefers-reduced-motion: reduce) {
   .about [data-reveal] { opacity: 1; transform: none; }
